@@ -1,0 +1,77 @@
+.container {
+  width: 1240px;
+  margin: 0 auto;
+}
+.xtx-shortcut {
+  height: 52px;
+  background-color: #333333;
+}
+.xtx-shortcut ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  line-height: 52px;
+}
+.xtx-shortcut ul li {
+  position: relative;
+  color: #fff;
+}
+.xtx-shortcut ul li:before {
+  content: "|";
+  position: absolute;
+  top: -1px;
+  left: -14px;
+  font-size: 18px;
+  color: #fff;
+}
+.xtx-shortcut ul li:first-child::before {
+  content: "";
+}
+.xtx-shortcut ul li:last-child::before {
+  content: "";
+}
+.xtx-shortcut ul li a {
+  font-size: 14px;
+  color: #fff;
+}
+.xtx-shortcut ul li a:hover {
+  color: #199e9e;
+  text-decoration: none;
+}
+.xtx-shortcut ul li a:last-child {
+  margin-right: 20px;
+}
+.xtx-main-nav .container {
+  height: 160px;
+  background-color: pink;
+}
+.xtx-main-nav .container .icon-gouwuche {
+  float: right !important;
+  font-size: 20px !important;
+}
+.xtx-main-nav .container ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: unset;
+  line-height: 160px;
+}
+.xtx-main-nav .container ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000;
+}
+.xtx-main-nav .container ul li a img {
+  margin-top: 29px;
+  width: 229px;
+  height: 85px;
+}
+.xtx-main-nav .container ul li a:hover {
+  color: #199e9e;
+  text-decoration: none;
+}
+.xtx-main-nav .container ul li a .icon-mobile {
+  font-size: 20px !important;
+}
+.xtx-main-nav .container ul li a .icon-gouwuche {
+  font-size: 20px !important;
+}

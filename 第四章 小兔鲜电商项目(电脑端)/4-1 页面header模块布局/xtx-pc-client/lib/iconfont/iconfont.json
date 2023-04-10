@@ -1,0 +1,16 @@
+{
+  "id": "3792006",
+  "name": "moblie",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "996184",
+      "name": "mobile",
+      "font_class": "mobile",
+      "unicode": "e611",
+      "unicode_decimal": 58897
+    }
+  ]
+}
